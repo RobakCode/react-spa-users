@@ -1,0 +1,25 @@
+.comments-item {
+  padding: 26px;
+  margin-bottom: 26px;
+  border-radius: 16px;
+  background-color: #2E001F;
+}
+
+.comments-item__title {
+  font-family: "Lato";
+  margin: 0 0 12px 0;
+  font-weight: 900;
+  font-size: 22px;
+  color: #fff;
+}
+
+.comments-item__email {
+  text-align: right;
+  color: #fff;
+}
+
+.comments-item__body {
+  margin-top: 16px;
+  font-weight: 400;
+  color: #fff;
+}

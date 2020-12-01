@@ -1,0 +1,32 @@
+.navigation {
+  background-color: #EC8689;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+.navigation__title {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.navigation__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#F18C8E, #F19895);
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navigation__button *,
+.navigation__button *:hover {
+  color: #fff;
+}

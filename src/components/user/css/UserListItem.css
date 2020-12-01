@@ -1,0 +1,55 @@
+.user-list__item {
+  background-color: #EAF9FE;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.user-list__title {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 32px;
+  color: #305F72;
+  margin: 0 0 24px 0;
+}
+
+.user-list__link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #305F72;
+  margin-bottom: 8px;
+}
+
+.user-list__link:hover,
+.user-list__link:active {
+  color: #305F72;
+}
+
+.user-list__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #F18C8E;
+  margin: 0;
+}
+
+.user-list__button,
+.user-list__button:hover,
+.user-list__button:active {
+  display: block;
+  width: 100%;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 24px;
+  color: #305F72;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+  outline: none;
+  cursor: pointer;
+}
