@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import { CommentType } from '../../types/types';
-import PostCommentsListItem from './PostComentsListItem';
+import { CommentType } from '../../../types/types';
+import PostCommentsListItem from '../PostCommentsListItem';
 
-function PostComentsList({ comments }: { comments: CommentType[] }) {
+function PostComentsListView({ comments }: { comments: CommentType[] }) {
 
 
   const commentList = () => {
@@ -17,4 +17,4 @@ function PostComentsList({ comments }: { comments: CommentType[] }) {
   );
 }
 
-export default PostComentsList;
+export default PostComentsListView;

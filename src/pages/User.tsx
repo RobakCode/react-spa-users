@@ -2,11 +2,11 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { connect } from "react-redux";
 import { useParams, useHistory } from "react-router-dom";
 import { addPost } from '../store/actions';
-import PostList from '../components/post/PostList';
+import PostList from '../components/Post/PostList';
 import { UserType, PostType } from '../types/types';
 import { Container, Grid, Link, Dialog, DialogTitle, DialogActions, DialogContent, TextField, Button, Icon } from '@material-ui/core';
 
-import HeaderNavigation from '../components/navigation/HeaderNavigation';
+import HeaderNavigation from '../components/Navigation/HeaderNavigation';
 
 function User({ posts, users, addPost }: { posts: PostType[], users: UserType[], addPost: any }) {
   let { id }: { id: string } = useParams();

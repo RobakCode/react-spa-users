@@ -1,41 +1,41 @@
-.user-list__item {
+import styled from 'styled-components';
+import { Box } from '@material-ui/core';
+
+export const UserListItem = styled(Box)`
   background-color: #EAF9FE;
   border-radius: 8px;
   padding: 24px;
-}
+`;
 
-.user-list__title {
+export const UserListItemTitle = styled.h2`
   font-family: "Lato";
   font-weight: 900;
   font-size: 32px;
   color: #305F72;
   margin: 0 0 24px 0;
-}
+`;
 
-.user-list__link {
+export const UserListItemLink = styled.a`
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #305F72;
   margin-bottom: 8px;
-}
+  &:hover,
+  &:active {
+    color: #305F72;
+  }
+`;
 
-.user-list__link:hover,
-.user-list__link:active {
-  color: #305F72;
-}
-
-.user-list__text {
+export const UserListItemText = styled.p`
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #F18C8E;
   margin: 0;
-}
+`;
 
-.user-list__button,
-.user-list__button:hover,
-.user-list__button:active {
+export const UserListItemButton = styled.button`
   display: block;
   width: 100%;
   font-family: "Lato";
@@ -52,4 +52,4 @@
   padding: 16px;
   outline: none;
   cursor: pointer;
-}
+`;

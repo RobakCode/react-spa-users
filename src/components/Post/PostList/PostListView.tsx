@@ -1,9 +1,9 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import PostListItem from './PostListItem';
-import { PostType } from '../../types/types';
+import PostListItem from '../PostListItem';
+import { PostType } from '../../../types/types';
 
-function PostList ({ posts }: { posts: PostType[] }) {
+function PostListView ({ posts }: { posts: PostType[] }) {
 
   const postList = () => {
     return posts.map((post: PostType) => (<PostListItem post={post} key={post.id} />));
@@ -16,4 +16,4 @@ function PostList ({ posts }: { posts: PostType[] }) {
   );
 }
 
-export default PostList;
+export default PostListView;

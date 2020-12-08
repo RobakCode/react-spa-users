@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid } from '@material-ui/core';
 import { connect } from "react-redux";
-import UserList from '../components/user/UserList';
+import UserList from '../components/User/UserList';
 import { UserType } from "../types/types";
 
 

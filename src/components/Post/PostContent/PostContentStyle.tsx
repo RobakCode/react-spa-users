@@ -1,18 +1,21 @@
-.post-content {
-  flex-direction: column;
-}
+import styled from 'styled-components';
+import { Grid } from '@material-ui/core';
 
-.post-content__title {
+export const PostContent = styled(Grid)`
+  flex-direction: column;
+`;
+
+export const PostContentTitle = styled.h2`
   font-family: "Lato";
   font-size: 48px;
   font-weight: 600;
   margin-top: 50px;
   margin-bottom: 32px;
-}
+`;
 
-.post-content__body {
+export const PostContentBody = styled.div`
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 32px;
-}
+`;

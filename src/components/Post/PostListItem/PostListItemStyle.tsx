@@ -1,24 +1,23 @@
-.post-list {}
+import styled from 'styled-components';
+import { Grid } from '@material-ui/core';
 
-.post-list__item {
+export const PostListItem = styled(Grid)`
   background-color: #FFE9F9;
   border-radius: 8px;
   margin: 12px 0;
   padding: 24px;
   color: #305F72;
   cursor: pointer;
-}
+`;
 
-.post-list__delete {
+export const PostListDelete = styled(Grid)`
   font-size: 32px;
   color: #F18C8E;
-}
+`;
 
-.post-list__go {
+export const PostListGo = styled(Grid)`
   display: flex;
   justify-content: flex-end;
   font-size: 32px;
   color: #F18C8E;
-}
-
-/*#305F72*/
+`;

@@ -4,9 +4,9 @@ import { useParams, useHistory } from "react-router-dom";
 import { Container, Grid, Typography, Link, Icon, Dialog, DialogTitle, DialogActions, DialogContent, TextField, Button } from '@material-ui/core';
 import { addComment } from '../store/actions';
 import { PostType, CommentType, UserType } from '../types/types';
-import PostContent from '../components/post/PostContent';
-import PostComents from '../components/post/PostComents';
-import HeaderNavigation from '../components/navigation/HeaderNavigation';
+import PostContent from '../components/Post/PostContent';
+import PostComents from '../components/Post/PostComments';
+import HeaderNavigation from '../components/Navigation/HeaderNavigation';
 
 function Post({ posts, comments, users, addComment }: { posts: PostType[], comments: CommentType[], users: UserType[], addComment: any }) {
   let { id }: { id: string } = useParams();
