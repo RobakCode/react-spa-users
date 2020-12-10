@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import { CommentType } from '../../../types/types';
+import { CommentType } from '../../../types';
 import PostCommentsListItem from '../PostCommentsListItem';
 
 function PostComentsListView({ comments }: { comments: CommentType[] }) {

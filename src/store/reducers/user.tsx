@@ -1,5 +1,5 @@
 import { SET_USERS, SET_ACTIVE_USER } from '../actionTypes';
-import { UserType } from '../../types/types';
+import { UserType } from '../../types';
 
 const initialState = {
   users: [],

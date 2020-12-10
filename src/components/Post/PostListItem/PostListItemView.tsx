@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { Grid, Typography } from '@material-ui/core';
 import Icon from '@material-ui/core/Icon';
-import { PostType } from '../../../types/types';
+import { PostType } from '../../../types';
 
 import {
   PostListItem,

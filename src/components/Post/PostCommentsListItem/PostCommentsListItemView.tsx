@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
-import { CommentType } from '../../../types/types';
+import { CommentType } from '../../../types';
 
 import {
   CommentsItem,

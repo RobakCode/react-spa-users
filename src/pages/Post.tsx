@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { useParams, useHistory } from "react-router-dom";
 import { Container, Grid, Typography, Link, Icon, Dialog, DialogTitle, DialogActions, DialogContent, TextField, Button } from '@material-ui/core';
 import { addComment } from '../store/actions';
-import { PostType, CommentType, UserType } from '../types/types';
+import { PostType, CommentType, UserType } from '../types';
 import PostContent from '../components/Post/PostContent';
 import PostComents from '../components/Post/PostComments';
 import HeaderNavigation from '../components/Navigation/HeaderNavigation';

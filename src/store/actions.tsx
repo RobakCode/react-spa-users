@@ -7,7 +7,7 @@ import {
   SET_COMMENTS,
   ADD_COMMENT
 } from './actionTypes';
-import { NewPostType, NewCommentType } from '../types/types';
+import { NewPostType, NewCommentType } from '../types';
 
 const setPosts = ( posts: any ) => ({
   type: SET_POSTS,

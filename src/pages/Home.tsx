@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Grid } from '@material-ui/core';
 import { connect } from "react-redux";
 import UserList from '../components/User/UserList';
-import { UserType } from "../types/types";
+import { UserType } from "../types";
 
 
 function Home({ users }: { users: UserType[] }) {

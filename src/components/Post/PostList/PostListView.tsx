@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import PostListItem from '../PostListItem';
-import { PostType } from '../../../types/types';
+import { PostType } from '../../../types';
 
 function PostListView ({ posts }: { posts: PostType[] }) {
 

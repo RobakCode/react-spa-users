@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from "react-redux";
-import { UserType, PostType, CommentType } from './types/types';
+import { UserType, PostType, CommentType } from './types';
 import Home from './pages/Home';
 import User from './pages/User';
 import Post from './pages/Post';

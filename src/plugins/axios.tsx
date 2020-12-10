@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { UserType, PostType, CommentType } from '../types/types';
+import { UserType, PostType, CommentType } from '../types';
 
 
 const getUsers = async () => {

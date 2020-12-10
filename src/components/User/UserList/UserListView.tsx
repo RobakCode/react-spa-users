@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Grid } from '@material-ui/core';
 import UserListItem from '../UserListItem';
-import { UserType, UserListType } from '../../../types/types';
+import { UserType, UserListType } from '../../../types';
 
 
 function UserListView({ users }: UserListType) {
